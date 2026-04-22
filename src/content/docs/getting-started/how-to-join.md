@@ -1,43 +1,22 @@
 ---
 title: How to Join
-description: Install the modpack and connect to the Kayri Ranch server.
+description: Kayri Ranch is whitelist-only. Get in touch for access details.
 sidebar:
   order: 2
 ---
 
-Two steps: install the modpack with Prism Launcher, then add the server.
+Kayri Ranch is a **small, whitelist-only server**. Connection details, the modpack install link, and whitelist access aren't published on this wiki.
 
-## 1. Install Prism Launcher
+## How to get access
 
-[Prism Launcher](https://prismlauncher.org/download/) is a Minecraft launcher that handles modded instances cleanly. One-time install, sign in with your Microsoft account.
+**DM Fett directly** (or one of the server officers if you already know them). Fett will:
 
-## 2. Get the Kayri Ranch modpack
+- Add your Minecraft username to the whitelist
+- Share the modpack install zip
+- Share the server address
 
-Download the pre-configured Prism instance:
+Once you're in, everything else on this wiki applies — start with the [First Hour Guide](/getting-started/first-hour/).
 
-```
-https://drive.google.com/open?id=1mPYrcsvcDH6K5WuHRjPUUAwuMyq6qfVX
-```
+## Why this page is intentionally sparse
 
-That's a small zip that Prism imports as a ready-to-go instance. First launch downloads the ~215 mods from Modrinth (2–3 minutes). Every future launch auto-syncs with the server pack — whenever the pack gets a tweak, you get it on your next launch, no action needed.
-
-**Not using Prism?** The Modrinth `.mrpack` is available on request — but you're on your own to wire up auto-updates.
-
-## 3. Add the server
-
-When your modded instance lands on the Minecraft main menu:
-
-1. Click **Multiplayer**
-2. Click **Add Server**
-3. Server Name: anything you like
-4. Server Address:
-
-```
-toys-initiated.gl.at.ply.gg:9967
-```
-
-5. Click **Done** → select the server → **Join Server**
-
-## Whitelist
-
-The server is whitelist-only. Not on the list yet? Ask a server officer (Sam, Fen, Sky, Orion) or Fett directly.
+This wiki is **unlisted** (not indexed by search engines) but still publicly readable by anyone with the URL. Keeping connection details off the wiki means a leaked link doesn't expose the server to drive-by traffic.

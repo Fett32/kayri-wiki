@@ -1,0 +1,36 @@
+---
+title: Kayri Ranch
+description: Player wiki for the Kayri Ranch Cobblemon server — a friendly modded Pokémon survival world.
+template: splash
+hero:
+  tagline: The player wiki for our friendly modded Cobblemon server. Rules, pack guide, Pokémon content, automation, and base-building notes.
+  image:
+    file: ../../assets/splash.png
+  actions:
+    - text: How to Join
+      link: /getting-started/how-to-join/
+      icon: right-arrow
+    - text: First Hour Guide
+      link: /getting-started/first-hour/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Jump in
+
+<CardGrid stagger>
+	<Card title="Getting Started" icon="rocket">
+		New here? Start with [How to Join](/getting-started/how-to-join/), read the [Rules](/getting-started/rules/), then follow the [First Hour Guide](/getting-started/first-hour/).
+	</Card>
+	<Card title="Pokémon & Combat" icon="star">
+		Spoiler-light [content overview](/pokemon/content-overview/), [spawn locations](/pokemon/spawn-locations/), and the [drops](/pokemon/drops/) you'll want for survival.
+	</Card>
+	<Card title="Base & Automation" icon="setting">
+		What's in the pack ([systems overview](/base/systems-overview/)), how [pasture automation](/base/pasture-automation/) works, and [decorating with Chipped](/base/chipped/).
+	</Card>
+	<Card title="Reference" icon="list-format">
+		[Full drop lookup](/reference/drops-lookup/), [spawn table](/reference/spawns-lookup/), and the [mod list](/reference/mod-list/).
+	</Card>
+</CardGrid>
